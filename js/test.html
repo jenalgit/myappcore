@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<script>
+var patt1=/^(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$/;
+document.write(patt1.test("192.168.256.101"));
+function isNonblank (s) {
+var patt1    = /\S/;
+   return String (s).search (patt1) != -1
+}
+//document.write(isNonblank('a'));
+</script>
+
+</body>
+</html>
