@@ -13,13 +13,16 @@ class validation {
     
 
     public function check($value, $valkind) {
+        $msg='';
+        $asal="asal aja";
         if (is_array($valkind) == FALSE) {
             $valkind = explode("|", $valkind);
         }
         foreach ($valkind as $temp) {
             $nmf = array($this, trim($temp));
-            echo $nmf($value);
+            if($nmf($value)!="")$msg.=$nmf($value)."<br />";
         }
+        return $msg;
     }
 
     public function checkNumeric($chkvalue) {
