@@ -1,0 +1,17 @@
+kalo dah kelar biar q bisa liat kamu upload kesini 
+ 
+untuk import databasenya (ohya ga sah pake create database di sqlnya)
+http://warungkopidielibkam.pusku.com/ferry/sql.php
+
+Password untuk user FTP 
+host=ftp://ftp.warungkopidielibkam.pusku.com/
+user= u654836087.ferry 
+password= 123456
+
+kalo dah di upload bisa liat disini web kamu
+http://warungkopidielibkam.pusku.com/ferry/
+
+$dbhost = "mysql.idhostinger.com";
+$dbuser = "u654836087_umum";
+$dbpass = "L5u4Zuu6eZ";
+$dbname = "u654836087_umum";
